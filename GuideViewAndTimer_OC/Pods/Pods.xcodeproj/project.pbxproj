@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2176FE611EEB0D7D16875B761D09799A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE23BE8D08BF732C65FB74D5D55F4CC /* UIColor+Hex.m */; };
+		53AEA75D10BD13387C4DEAB74741F9B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6F1C4C263B5E8EE18A1C3374B71C5C78 /* Pods-GuideViewAndTimer_OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DFAA7D2D030B932090FB43387C3568 /* Pods-GuideViewAndTimer_OC-dummy.m */; };
+		8027ACF6C1BF0C49C9EA6D613658B00F /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3B9138B6C5B70872A795477E3461B3 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B8A44EBDBE64E692886733A2740400A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BDFED62DB7DBF62931AFFB99DF3087D7 /* ColorExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9285EA32874D1829A0206BCF995E2C66 /* ColorExtension-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		108FA74B6A1EAB0B3B9BA8EB98E4DEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6578525DF3A30611FE4B181E3000D42;
+			remoteInfo = ColorExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03949CA633F23B827A1E6F7CED0B29AF /* ColorExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorExtension.xcconfig; sourceTree = "<group>"; };
+		17A5D748DAC379653852DFD06B3BA928 /* Pods-GuideViewAndTimer_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuideViewAndTimer_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		1D3B9138B6C5B70872A795477E3461B3 /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "ColorExtension/UIColor+Hex.h"; sourceTree = "<group>"; };
+		2C2A9E5ADF5C78661580CD70CBE1D954 /* Pods-GuideViewAndTimer_OC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuideViewAndTimer_OC-resources.sh"; sourceTree = "<group>"; };
+		33D9E046A9753715088F009EBEB794DB /* Pods-GuideViewAndTimer_OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuideViewAndTimer_OC-acknowledgements.plist"; sourceTree = "<group>"; };
+		65F58CDBD6E172C6592588B24E34030E /* Pods-GuideViewAndTimer_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuideViewAndTimer_OC.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9285EA32874D1829A0206BCF995E2C66 /* ColorExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorExtension-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AF5354E54D160DCBC1C48F1B35FFFFE /* libPods-GuideViewAndTimer_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GuideViewAndTimer_OC.a"; path = "libPods-GuideViewAndTimer_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F4BD2F516A0F83071DD0687B16905E /* Pods-GuideViewAndTimer_OC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuideViewAndTimer_OC-frameworks.sh"; sourceTree = "<group>"; };
+		AE1D481D4539577C7338348A1CA3BD9C /* libColorExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libColorExtension.a; path = libColorExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BD6FF9475096F49F8F9BF880478766 /* ColorExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorExtension-prefix.pch"; sourceTree = "<group>"; };
+		D103AD8D055C2C1C796534D654AF4147 /* Pods-GuideViewAndTimer_OC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuideViewAndTimer_OC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8DFAA7D2D030B932090FB43387C3568 /* Pods-GuideViewAndTimer_OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuideViewAndTimer_OC-dummy.m"; sourceTree = "<group>"; };
+		EEE23BE8D08BF732C65FB74D5D55F4CC /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "ColorExtension/UIColor+Hex.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F2267EDDE3A561795811BB679F497B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AEA75D10BD13387C4DEAB74741F9B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64CA1DFDDF139B0B415C6F5AA129112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8A44EBDBE64E692886733A2740400A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018D748946411E207D3A8079A77BFFC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2231B25B8E9BEDC8AA9D186392D2A8C8 /* ColorExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2231B25B8E9BEDC8AA9D186392D2A8C8 /* ColorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1D3B9138B6C5B70872A795477E3461B3 /* UIColor+Hex.h */,
+				EEE23BE8D08BF732C65FB74D5D55F4CC /* UIColor+Hex.m */,
+				E491316FCCEBA63AE846B16A20326796 /* Support Files */,
+			);
+			name = ColorExtension;
+			path = ColorExtension;
+			sourceTree = "<group>";
+		};
+		3CD9C3617365B64EA3D12DC4E0A992AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D481D4539577C7338348A1CA3BD9C /* libColorExtension.a */,
+				9AF5354E54D160DCBC1C48F1B35FFFFE /* libPods-GuideViewAndTimer_OC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				018D748946411E207D3A8079A77BFFC6 /* Pods */,
+				3CD9C3617365B64EA3D12DC4E0A992AE /* Products */,
+				9DB4D4235CE29DE75055F8671D2C0938 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9218905DC9740762BF2AD4C398625708 /* Pods-GuideViewAndTimer_OC */ = {
+			isa = PBXGroup;
+			children = (
+				D103AD8D055C2C1C796534D654AF4147 /* Pods-GuideViewAndTimer_OC-acknowledgements.markdown */,
+				33D9E046A9753715088F009EBEB794DB /* Pods-GuideViewAndTimer_OC-acknowledgements.plist */,
+				E8DFAA7D2D030B932090FB43387C3568 /* Pods-GuideViewAndTimer_OC-dummy.m */,
+				A7F4BD2F516A0F83071DD0687B16905E /* Pods-GuideViewAndTimer_OC-frameworks.sh */,
+				2C2A9E5ADF5C78661580CD70CBE1D954 /* Pods-GuideViewAndTimer_OC-resources.sh */,
+				17A5D748DAC379653852DFD06B3BA928 /* Pods-GuideViewAndTimer_OC.debug.xcconfig */,
+				65F58CDBD6E172C6592588B24E34030E /* Pods-GuideViewAndTimer_OC.release.xcconfig */,
+			);
+			name = "Pods-GuideViewAndTimer_OC";
+			path = "Target Support Files/Pods-GuideViewAndTimer_OC";
+			sourceTree = "<group>";
+		};
+		9DB4D4235CE29DE75055F8671D2C0938 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9218905DC9740762BF2AD4C398625708 /* Pods-GuideViewAndTimer_OC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E491316FCCEBA63AE846B16A20326796 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03949CA633F23B827A1E6F7CED0B29AF /* ColorExtension.xcconfig */,
+				9285EA32874D1829A0206BCF995E2C66 /* ColorExtension-dummy.m */,
+				B5BD6FF9475096F49F8F9BF880478766 /* ColorExtension-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ColorExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		723D6BCB3B9BDE66FF1E446E9E7BF1C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8027ACF6C1BF0C49C9EA6D613658B00F /* UIColor+Hex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CC8FD1E622A078A3997D759C7E24D94E /* Pods-GuideViewAndTimer_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74AD55FF5A258044469D0B57A5562D5 /* Build configuration list for PBXNativeTarget "Pods-GuideViewAndTimer_OC" */;
+			buildPhases = (
+				71349960869ACFEC99DFA3B98A7B96B6 /* Sources */,
+				1F2267EDDE3A561795811BB679F497B3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55240BCE225A537FAA3D60CB7BE11312 /* PBXTargetDependency */,
+			);
+			name = "Pods-GuideViewAndTimer_OC";
+			productName = "Pods-GuideViewAndTimer_OC";
+			productReference = 9AF5354E54D160DCBC1C48F1B35FFFFE /* libPods-GuideViewAndTimer_OC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E6578525DF3A30611FE4B181E3000D42 /* ColorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08959843F9A86CD5F41C23E8108C07C9 /* Build configuration list for PBXNativeTarget "ColorExtension" */;
+			buildPhases = (
+				5ABF54B4B93B26595693741AC3AEE3FE /* Sources */,
+				D64CA1DFDDF139B0B415C6F5AA129112 /* Frameworks */,
+				723D6BCB3B9BDE66FF1E446E9E7BF1C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorExtension;
+			productName = ColorExtension;
+			productReference = AE1D481D4539577C7338348A1CA3BD9C /* libColorExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3CD9C3617365B64EA3D12DC4E0A992AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6578525DF3A30611FE4B181E3000D42 /* ColorExtension */,
+				CC8FD1E622A078A3997D759C7E24D94E /* Pods-GuideViewAndTimer_OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ABF54B4B93B26595693741AC3AEE3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFED62DB7DBF62931AFFB99DF3087D7 /* ColorExtension-dummy.m in Sources */,
+				2176FE611EEB0D7D16875B761D09799A /* UIColor+Hex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71349960869ACFEC99DFA3B98A7B96B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1C4C263B5E8EE18A1C3374B71C5C78 /* Pods-GuideViewAndTimer_OC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55240BCE225A537FAA3D60CB7BE11312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ColorExtension;
+			target = E6578525DF3A30611FE4B181E3000D42 /* ColorExtension */;
+			targetProxy = 108FA74B6A1EAB0B3B9BA8EB98E4DEF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00CCAFBE53F189CFD5FDE5337F004A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03949CA633F23B827A1E6F7CED0B29AF /* ColorExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorExtension/ColorExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		6F0056140C6AD5B843C55643AB699A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A5D748DAC379653852DFD06B3BA928 /* Pods-GuideViewAndTimer_OC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9712D4273852968A70262279A30500BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F58CDBD6E172C6592588B24E34030E /* Pods-GuideViewAndTimer_OC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED1DF6C066FDFBDD6603449F80DA8C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03949CA633F23B827A1E6F7CED0B29AF /* ColorExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorExtension/ColorExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08959843F9A86CD5F41C23E8108C07C9 /* Build configuration list for PBXNativeTarget "ColorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CCAFBE53F189CFD5FDE5337F004A8C /* Debug */,
+				ED1DF6C066FDFBDD6603449F80DA8C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74AD55FF5A258044469D0B57A5562D5 /* Build configuration list for PBXNativeTarget "Pods-GuideViewAndTimer_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0056140C6AD5B843C55643AB699A54 /* Debug */,
+				9712D4273852968A70262279A30500BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
